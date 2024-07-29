@@ -3,3 +3,4 @@ export default function getStudentsByLocation(students, city) {
     return [];
   }
   return students.filter((std) => std.location === city);
+}
